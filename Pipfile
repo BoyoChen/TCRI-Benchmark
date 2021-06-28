@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyterlab = "*"
+pyyaml = "*"
+arrow = "*"
+wget = "*"
+tables = "*"
+numpy = "==1.19.5"
+
+[dev-packages]
+jupyter = "*"
+pandas = "*"
+
+[requires]
+python_version = "3.9"
